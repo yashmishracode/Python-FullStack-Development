@@ -1,7 +1,15 @@
-a = int(input("Enter a Number"))
+# a = int(input("Enter a Number"))
 
-if a>0 :
-  print("positive")
+# print("positive") if a>0 else print("Non Positive")
 
-else:
-  print("Negative")
+#Match
+
+x=int(input("Enter a Number: "))
+
+match x:
+  case 1:
+    print("One")
+  case 23:
+    print("Two")
+  case _:
+    print("lol")
